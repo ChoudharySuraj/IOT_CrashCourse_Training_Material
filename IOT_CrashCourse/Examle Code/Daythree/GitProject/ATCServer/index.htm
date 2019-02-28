@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Simple login</title>
+  </head>
+  <body>
+  
+  <div style="border-radius:10px;-moz-border-radius:10px; background-color:#FFFF99;" align="center">
+  <form action="switch" method="post">
+  <input type="text" name="deviceName" value="MOT1" style="visibility:hidden"><br>
+  <input type="text" name="deviceStatus" value="0" style="visibility:hidden"><br>
+  <button type="submit" formmethod="post" formaction="switch">Toggle Motor OFF</button>
+  </form> 
+  
+  <form action="switch" method="post">
+  <input type="text" name="deviceName" value="MOT1" style="visibility:hidden"><br>
+  <input type="text" name="deviceStatus" value="1" style="visibility:hidden"><br>
+  <button type="submit" formmethod="post" formaction="switch">Toggle Motor ON</button>
+  </form>
+  </div>
+	
+  <div style="border-radius:10px;-moz-border-radius:10px; background-color:#FF4999;" align="center">
+  <form action="switch" method="post">
+  <input type="text" name="deviceName" value="LIT1" style="visibility:hidden"><br>
+  <input type="text" name="deviceStatus" value="0" style="visibility:hidden"><br>
+  <button type="submit" formmethod="post" formaction="switch">Toggle Light OFF</button>
+  </form> 
+  
+  <form action="switch" method="post">
+  <input type="text" name="deviceName" value="LIT1" style="visibility:hidden"><br>
+  <input type="text" name="deviceStatus" value="1" style="visibility:hidden"><br>
+  <button type="submit" formmethod="post" formaction="switch">Toggle Light ON</button>
+  </form>
+  </div>
+  
+  </body>
+</html>
