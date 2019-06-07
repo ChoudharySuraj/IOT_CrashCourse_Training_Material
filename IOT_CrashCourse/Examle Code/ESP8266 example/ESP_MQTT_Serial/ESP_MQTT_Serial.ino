@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 
 // Replace these with your WiFi network settings
-const char* ssid = "SKC_AH"; //replace this with your WiFi network name
-const char* password = "Suraj060885"; //replace this with your WiFi network password
+const char* ssid = "XXXXX"; //replace this with your WiFi network name
+const char* password = "XXXX"; //replace this with your WiFi network password
 const char* mqttServer = "iot.eclipse.org";
 const int mqttPort = 1883;
 const char* mqttUser = "myesptest";
